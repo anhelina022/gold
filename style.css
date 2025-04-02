@@ -12,13 +12,14 @@
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .golden {
     font-family: "Bilbo Swash Caps";
     color: #FED136;
     font-size: 36px;
+    padding-right: 239px;
 }
 
 .goldenText {
@@ -43,7 +44,7 @@
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 113px;
-    margin-left: 600px;
+    margin-left: 650px;
 }
 
 .ulMain {
@@ -98,6 +99,7 @@
 
 
 /* Footer */
+
 
 
 
@@ -164,6 +166,8 @@
 	width: 458px;
 	height: 188px;
 	padding: 12px 27px;
-	border: 1px solid #cccccc;
+	border: 1px solid #BBBBBB;
 	border-radius: 5px;
+    font-family: 'Montserrat';
+    font-size: 14px;
 }
