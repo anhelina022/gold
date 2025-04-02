@@ -4,39 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>golden</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="headerr">
+    <header class="header">
+        <div class="container header-content">
         <h2 class="golden">Golden</h2>
         <a href="" class="goldenText">HOME</a>
         <a href="" class="goldenText">SERVICES</a>
         <a href="" class="goldenText">PORTOLIO</a>
         <a href="" class="goldenText">ABOUT</a>
         <a href="" class="goldenText">CONTACT</a>
+    </div>
     </header>
 
     <main class="main">
-        <h2 class="mainH">Services</h2>
+        <h2 class="main-title">Services</h2>
         <ul class="ulMain">
             <li class="liMain">
-                <img src="./img/Combined shape 134.svg" alt="">
-                <h4 class="mainTitle">E-Commerce</h3>
+                <div class="main-li-div-basket">
+                    <img src="./img/Combined shape 134.svg" alt="basket">
+                </div>
+                <h3 class="mainTitle">E-Commerce</h3>
                 <p class="maintext">Proin iaculis purus consequat sem cure <br> digni ssim. Donec porttitora entum suscipit <br> aenean rhoncus posuere odio in tincidunt.</p>
             </li>
 
             <li class="liMain">
-                <img src="./img/Combined shape 132.svg" alt="">
-                <h4 class="mainTitle">Responsive Web</h3>
+                <div class="main-li-div-computer">
+                    <img src="./img/Combined shape 132.svg" alt="computer">
+                </div>
+                <h3 class="mainTitle">Responsive Web</h3>
                 <p class="maintext">Proin iaculis purus consequat sem cure <br> digni ssim. Donec porttitora entum suscipit <br> aenean rhoncus posuere odio in tincidunt.</p>
             </li>
 
             <li class="liMain">
-                <img src="./img/Combined shape 130.svg" alt="">
-                <h4 class="mainTitle">Web Security</h3>
+                <div class="main-li-div-key">
+                    <img src="./img/Combined shape 130.svg" alt="key">
+                </div>
+                <h3 class="mainTitle">Web Security</h3>
                 <p class="maintext">Proin iaculis purus consequat sem cure <br> digni ssim. Donec porttitora entum suscipit <br> aenean rhoncus posuere odio in tincidunt.</p>
             </li>
         </ul>
@@ -44,26 +52,30 @@
 
     <footer class="footer">
         <h2 class="textFooter">CONTACT US</h2>
-        <form action="">
-            <label for="">
-                <input type="text" placeholder="your Name *">
-            </label>
+        <form class="form">
+            <div class="form_data">
+                <label class="input_data" for="">
+                    <input class="text_data" type="text" placeholder="YOUR NAME *" />
+                </label>
 
-            <label for="">
-                <input type="text" placeholder="your e-mail *">
-            </label>
+                <label class="input_data" for="">
+                    <input class="text_data" type="text" placeholder="YOUR E-MAIL *" />
+                </label>
 
+                <label class="input_data" for="">
+                    <input class="text_data" type="text" placeholder="SUBJECT" />
+                </label>
+            </div>
             <label for="">
-                <input type="text" placeholder="subject">
-            </label>
-
-            <label for="">
-                <input type="text" placeholder="Your message *">
+                <textarea
+                    class="message"
+                    type="text"
+                    placeholder="Your message *"
+                ></textarea>
             </label>
         </form>
 
-        <button class="btn">Send Message</button>
-
+        <button class="btn">SEND MESSAGE</button>
     </footer>
 </body>
 </html>
