@@ -19,12 +19,12 @@
     font-family: "Bilbo Swash Caps";
     color: #FED136;
     font-size: 36px;
-    padding-right: 239px;
+    margin-right: 280px;
 }
 
 .goldenText {
     color: #FED136;
-    padding-right: 40px;
+    padding-right: 30px;
     text-decoration: none;
 }
 
@@ -36,7 +36,7 @@
 .main {
     margin: 0 auto;
     align-items: center;
-    padding: 120px 0 ;
+    margin-top: 125px;
 }
 
 .main-title {
@@ -44,13 +44,15 @@
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 113px;
-    margin-left: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .ulMain {
     display: flex;
     align-items: center;
-    padding: 0 265px;
+    justify-content: center;
 }
 
 .liMain {
@@ -92,6 +94,7 @@
     color: #777;
     font-family: 'RobotoSlab';
     font-size: 14px;
+    
 }
 
 
